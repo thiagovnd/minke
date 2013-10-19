@@ -3,13 +3,16 @@
 /* Padding below the footer and lighter body text */
 
 body {
-  padding-bottom: 40px;
-  color: #5a5a5a;
+  color: #6699cc;
 }
 
-* {
+h1, h2, h3, h4, h5, h6 {
   font-family: 'Quicksand', sans-serif;
   text-rendering: optimizeLegibility;
+}
+
+p {
+  font: arial;
 }
 
 /* CUSTOMIZE THE NAVBAR
@@ -62,7 +65,7 @@ body {
 /* Declare heights because of positioning of img element */
 .carousel .item {
   height: 380px;
-  background-color: #777;
+  background-color: #6699cc;
 }
 .carousel-inner > .item > img {
   position: absolute;
@@ -211,13 +214,25 @@ body {
 footer {}
 
 footer .col-md-3, .modelos-cartao .col-md-3{
-  background: #babaca;
-  height: 200px;
+  background: #e1e1e1;
+  height: 230px;
 }
 
+  footer .col-md-3{
+  }
   footer .col-md-3 p{
     text-align: left;
   }
     footer button {
       float: right;
     }
+
+@media (max-width: 1025px) {
+  .carousel .item {
+    height: 680px;
+  }
+  .container {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+}
