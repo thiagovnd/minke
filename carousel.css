@@ -15,6 +15,11 @@ p {
   font: arial;
 }
 
+button {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold !important;
+}
+
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
 
@@ -177,12 +182,15 @@ p {
   background: #ffcc66;
   padding: 9px 18px 10px;
   margin: 0 10px 0 -4px;
+  color: #996600;
+  font-weight: bold;
 }
 
 .login {
   background:   #6699cc;
   margin: auto;
   position: absolute;
+  text-align: center;
 }
 .login:hover {
   background: #ff3399;
@@ -227,12 +235,16 @@ footer .col-md-3, .modelos-cartao .col-md-3{
       float: right;
     }
 
-@media (max-width: 1025px) {
+@media (max-width: 1050px) {
   .carousel .item {
     height: 680px;
   }
   .container {
     padding-right: 0px;
     padding-left: 0px;
+  }
+  .nav-busca {
+    width: 1010px;
+    margin: 0 0 0 -25px;
   }
 }

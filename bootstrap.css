@@ -510,7 +510,7 @@ h2,
   font-size: 30px;
   color: #ff3399;
   padding: 2px 0 0 30px;
-  background: url(img/estrela.png) left no-repeat;
+  background: url(img/estrela-rosa.png) left no-repeat;
 }
 
 h3,
@@ -2085,8 +2085,8 @@ fieldset[disabled] .btn-default.active {
 
 .btn-primary {
   color: #ffffff;
-  background-color: #428bca;
-  border-color: #357ebd;
+  background-color: #b0c4d9;
+  border-color: none;
 }
 
 .btn-primary:hover,
@@ -3812,7 +3812,11 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .nav > li > a {
   position: relative;
   display: block;
-  padding: 10px 15px;
+  padding: 10px 20px 10px 15px;
+}
+
+.sem-estrela {
+  background-image: none !important;
 }
 
 .nav > li > a:hover,
@@ -4514,6 +4518,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 
 .navbar-inverse .navbar-nav > li > a {
   color: #6699cc;
+  background: url(img/estrela-amarela.png) no-repeat right;
 }
 
 .navbar-inverse .navbar-nav > li > a:hover,
